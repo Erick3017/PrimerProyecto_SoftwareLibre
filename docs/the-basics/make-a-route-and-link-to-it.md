@@ -2,7 +2,7 @@
 
 # Make a Route and link to it
 
-En este capitulo cambiamos el arhivo "welcome.blade.php" que se encuentra en `/views/welcome.blade.php`, por `"posts.blade.php"`
+En este capitulo cambiamos el archivo "welcome.blade.php" que se encuentra en `/views/welcome.blade.php`, por `"posts.blade.php"`
 
 Y en la parte de `/routes/web.php` cambiamos los siguiente:
 
