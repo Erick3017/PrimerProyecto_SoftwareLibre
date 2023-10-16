@@ -155,11 +155,11 @@ Despues de esto creamos un archivo en la carpeta resources el cual se llamará `
 
 Así se deberia de ver la ruta posts:
 
-![Vista Welcome](images/pagina_Posts.png)
+![Pagina Posts](images/pagina_Posts.png)
 
 y así la ruta post:
 
-![Vista Welcome](images/pagina_Post.png)
+![Pagina Post](images/pagina_Post.png)
 
 
 
