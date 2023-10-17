@@ -2,6 +2,8 @@
 
 use App\Models\Post;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\File;
+use Spatie\YamlFrontMatter\YamlFrontMatter;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,12 +24,10 @@ Route::get('/', function () {
 });
 
 Route::get('posts/{post}', function ($slug) {
- 
 
     return view('post', [
         'post' => Post::find($slug)
     ]);
-
 })->where('post', '[A-z_\-]+');
 
 
