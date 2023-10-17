@@ -12,4 +12,8 @@
 - [12. Find a Composer Package for Post Metadata](./the-basics/find-a-composer-package-for-post-metadata.md)
 - [13. Collection Sorting and Caching Refresher](./the-basics/collection-sorting-and-caching-refresher.md)
 
+## 03. Blade
+
+- [14. Blade: The Absolute Basics](./Blade/blade-the-absolute-basics.md)
+
 
