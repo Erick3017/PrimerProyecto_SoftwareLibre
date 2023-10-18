@@ -12,7 +12,7 @@ Route::get('/', function () {
 });
 ```
 
-Ahora eliminamos el archivo `app.js` que se encuntra ubicado en la carpeta `/public` y despues nos movemos al archivo `posts.blade.php` y eliminamos la linea de codigo del script:
+Ahora eliminamos el archivo `app.js` que se encuentra ubicado en la carpeta `/public` y despues nos movemos al archivo `posts.blade.php` y eliminamos la linea de codigo del script:
 
 ```html
 <!DOCTYPE html>
