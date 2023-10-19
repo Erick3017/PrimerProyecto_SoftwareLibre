@@ -18,4 +18,10 @@
 - [15. Blade Layouts Two Ways](./Blade/blade-layouts-two-ways.md)
 - [16. A Few Tweaks and Consideration](./Blade/a-few-tweaks-and-consideration.md)
 
+## 03. Working With Databases
+
+- [17. Environment Files and Database Connections](./working-with-databases/environment-files-and-database-connections.md)
+
+
+
 
