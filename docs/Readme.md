@@ -29,7 +29,8 @@
 - [23. Route Model Binding](./working-with-databases/route-model-binding.md)
 - [24. Your First Eloquent Relationship](./working-with-databases/your-first-eloquent-relationship.md)
 - [25. Show All Posts Associated With a Category](./working-with-databases/show-all-posts-associated-with-a-category.md)
-- 
+- [26. Clockwork, and the N+1 Problem](./working-with-databases/clockwork-and-the-N+1-problem.md)
+
 
 
 
