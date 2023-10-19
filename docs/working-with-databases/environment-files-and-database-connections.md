@@ -50,7 +50,7 @@ Y después, ejecutamos el siguiente comando para ver la tablas en nuestra base d
 show tables;
 ```
 
-Ahora nos iremos a internet y instalaremos una aplicacion de base de datos, puede ser `Sequel Pro`, `Mysql Workbench` o `TablePlus`.
+Ahora nos iremos a internet y instalaremos una aplicación de base de datos, puede ser `Sequel Pro`, `Mysql Workbench` o `TablePlus`.
 
 En este caso, utilizaremos `TablePlus`.
 
@@ -58,15 +58,15 @@ Una vez instalada la aplicación, la abrimos y presionamos click derecho del mou
 
 ![TablePlus crear database](images/DB.png)
 
-Nos saldara una ventana y escribiremos los datos que concuerden con los que tenemos en el .env, en mi caso sería así:
+Nos saldrá una ventana y escribiremos los datos que concuerden con los que tenemos en el .env, en mi caso sería así:
 
 ![Creando database](images/create.png)
 
-Después, presionamos donde en el boton que dice `Test` y nos tiene que salir el siguiente mensaje mencionando que todo esta correcto:
+Después, presionamos en el botón que dice `Test` y nos tiene que salir el siguiente mensaje mencionando que todo esta correcto:
 
 ![Testiando](images/test.png)
 
-Seguidamente, presionamos el boton `save` y abrimos nuestra base dando doble click sobre nuestra base de datos creada.
+Seguidamente, presionamos el botón `save` y abrimos nuestra base dando doble click sobre nuestra base de datos creada.
 
 ![Database](images/database.png)
 
