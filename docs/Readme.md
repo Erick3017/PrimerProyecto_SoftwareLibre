@@ -16,5 +16,6 @@
 
 - [14. Blade: The Absolute Basics](./Blade/blade-the-absolute-basics.md)
 - [15. Blade Layouts Two Ways](./Blade/blade-layouts-two-ways.md)
+- [16. A Few Tweaks and Consideration](./Blade/a-few-tweaks-and-consideration.md)
 
 
