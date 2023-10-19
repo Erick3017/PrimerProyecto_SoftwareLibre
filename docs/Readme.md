@@ -25,6 +25,7 @@
 - [19. Eloquent and the Active Record Pattern](./working-with-databases/eloquent-and-the-active-record-pattern.md)
 - [20. Make a Post Model and Migration](./working-with-databases/make-a-post-model-and-migration.md)
 - [21. Eloquent Updates and HTML Escaping](./working-with-databases/eloquent-updates-and-HTML-escaping.md)
+- [22. 3 Ways to Mitigate Mass Assignment Vulnerabilities](./working-with-databases/3-ways-to-mitigate-mass-assignment-vulnerabilities.md)
 
 
 
