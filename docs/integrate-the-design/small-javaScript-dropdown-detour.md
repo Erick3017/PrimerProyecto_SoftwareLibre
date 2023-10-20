@@ -1,3 +1,50 @@
+[< Volver a la pagina principal](/docs/readme.md)
+
+# A Small JavaScript Dropdown Detour
+
+A continuación, tenemos que hacer que "Categorías" se desplegué en la página de inicio y funcione como se espera. 
+
+En este episodio, tendremos que buscar un poco de JavaScript para hacer que esto funcione. Usaremos la excelente biblioteca Alpine.js. Vamos a pasar por esto, y vamos a saltar de nuevo en algunos temas específicos de Laravel!
+
+Empezamos modificando el archivo `_post-header.blade.php` en cual agregamos un foreach para llamar las categorías mediante la ruta. 
+
+```html
+<div class="relative flex lg:inline-flex items-center bg-gray-100 rounded-xl">
+    <select class="flex-1 appearance-none bg-transparent py-2 pl-3 pr-9 text-sm font-semibold">
+        <option value="category" disabled selected>Category
+        </option>
+        @foreach ($categories as $category)
+        <option value="{{ $category->slug }}">{{ $category->name }}</option>
+         @endforeach
+    </select>
+```
+
+Pero, el código anterior no nos va a funcionar porque primero hay que irnos al archivo `web.php` y agregar la ruta `categories` en todas las rutas.
+
+```php
+Route::get('/', function () {
+
+    return view('posts', [
+        'posts' => Post::latest()->get(),
+        'categories' => Category::all()
+    ]);
+});
+```
+
+Posteriormente, vamos a nuestro browser de la computador y nos vamos al siguiente link para descargar el `script` para utilizar javascript:
+
+* [Alpine.js](https://github.com/alpinejs/alpine/tree/v2.8.2)
+
+
+Y este script lo añadimos en el archivo `layout.blade.php`:
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+```
+
+Ahora, vamos y modificamos la mayor parte del código del archivo `_post-header.blade.php` para primero integrar nuestras categorías y darle un apropiado diseño.
+
+```html
 <header class="max-w-xl mx-auto mt-20 text-center">
     <h1 class="text-4xl">
         Latest <span class="text-blue-500">Laravel From Scratch</span> News
@@ -69,3 +116,10 @@
         </div>
     </div>
 </header>
+```
+
+Y para finalizar, volvemos a nuestro archivo `web.php` y agregamos la siguiente linea de código en la ruta de `categories`:
+
+```php
+'currentCategory' => $category
+```
