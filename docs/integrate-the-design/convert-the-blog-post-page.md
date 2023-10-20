@@ -1,3 +1,12 @@
+[< Volver a la pagina principal](/docs/readme.md)
+
+# Convert the Blog Post Page
+
+Con la página de inicio en un estado razonablemente, pasemos ahora a la página "ver publicación de blog" y pongamos en marcha.
+
+En este episodio lo que se realizo fue, primeramente modificamos el archivo post.blade.php, en cual lo que hicimos fue agregarle nuestro estilo y nuestras rutas:
+
+```html
 <x-layout>
     <section class="px-6 py-8">
         <main class="max-w-6xl mx-auto mt-10 lg:mt-20 space-y-6">
@@ -50,3 +59,16 @@
     </section>
 
 </x-layout>
+```
+
+Y además, creamos un nuevo archivo llamada `category-button.blade.php` en cual manejamos el `slug`:
+
+```php
+@props (['category'])
+
+<a href="/category/{{$category->slug }}" 
+class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs uppercase font-semibold" 
+style="font-size: 10px">{{$category->name}}</a>
+```
+
+
