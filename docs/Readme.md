@@ -32,6 +32,7 @@
 - [26. Clockwork, and the N+1 Problem](./working-with-databases/clockwork-and-the-N+1-problem.md)
 - [27. Database Seeding Saves Time](./working-with-databases/database-seeding-saves-time.md)
 - [28. Turbo Boost With Factories](./working-with-databases/turbo-boost-with-factories.md)
+- [29. View All Posts By An Author](./working-with-databases/view-all-posts-by-an-author.md)
 
 
 
