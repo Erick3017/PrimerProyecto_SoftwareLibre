@@ -38,6 +38,7 @@
 ## 04. Integrate the Design
 
 - [31. Convert the HTML and CSS to Blade](./integrate-the-design/convert-the-HTML-and-CSS-to-blade.md)
+- [32. Blade Components and CSS Grids](./integrate-the-design/blade-components-and-CSS-grids.md)
 
 
 
