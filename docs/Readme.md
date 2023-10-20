@@ -35,6 +35,9 @@
 - [29. View All Posts By An Author](./working-with-databases/view-all-posts-by-an-author.md)
 - [30. Eager Load Relationships on an Existing Model](./working-with-databases/eager-load-relationships-on-an-existing-model.md)
 
+## 04. Integrate the Design
+
+- [31. Convert the HTML and CSS to Blade](./integrate-the-design/convert-the-HTML-and-CSS-to-blade.md)
 
 
 
