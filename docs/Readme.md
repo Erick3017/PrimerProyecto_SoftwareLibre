@@ -41,6 +41,7 @@
 - [32. Blade Components and CSS Grids](./integrate-the-design/blade-components-and-CSS-grids.md)
 - [33. Convert the Blog Post Page](./integrate-the-design/convert-the-blog-post-page.md)
 - [34. A Small JavaScript Dropdown Detour](./integrate-the-design/small-javaScript-dropdown-detour.md)
+- [35. How to Extract a Dropdown Blade Component](./integrate-the-design/how-to-extract-a-dropdown-blade-component.md)
 
 
 
