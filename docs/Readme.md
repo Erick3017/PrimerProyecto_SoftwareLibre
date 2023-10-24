@@ -18,7 +18,7 @@
 - [15. Blade Layouts Two Ways](./Blade/blade-layouts-two-ways.md)
 - [16. A Few Tweaks and Consideration](./Blade/a-few-tweaks-and-consideration.md)
 
-## 03. Working With Databases
+## 04. Working With Databases
 
 - [17. Environment Files and Database Connections](./working-with-databases/environment-files-and-database-connections.md)
 - [18. Migrations: The Absolute Basics](./working-with-databases/migrations-the-absolute-basics.md)
@@ -35,7 +35,7 @@
 - [29. View All Posts By An Author](./working-with-databases/view-all-posts-by-an-author.md)
 - [30. Eager Load Relationships on an Existing Model](./working-with-databases/eager-load-relationships-on-an-existing-model.md)
 
-## 04. Integrate the Design
+## 05. Integrate the Design
 
 - [31. Convert the HTML and CSS to Blade](./integrate-the-design/convert-the-HTML-and-CSS-to-blade.md)
 - [32. Blade Components and CSS Grids](./integrate-the-design/blade-components-and-CSS-grids.md)
@@ -44,8 +44,9 @@
 - [35. How to Extract a Dropdown Blade Component](./integrate-the-design/how-to-extract-a-dropdown-blade-component.md)
 - [36. Quick Tweaks and Clean-Up](./integrate-the-design/quick-tweaks-and-clean-Up.md)
 
+## 06. Integrate the Design
 
-
+- [37. Search (The Messy Way)](./search/search-the-messy-way.md)
 
 
 
