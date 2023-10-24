@@ -48,7 +48,8 @@
 
 - [37. Search (The Messy Way)](./search/search-the-messy-way.md)
 - [38. Search (The Cleaner Way)](./search/search-the-cleaner-way.md)
-
+- [39. Advanced Eloquent Query Constraints)](./filtering/advanced-eloquent-query-constraints.md)
+- 
 
 
 
