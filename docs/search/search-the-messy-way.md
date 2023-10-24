@@ -24,6 +24,7 @@ Route::get('/', function () {
         'posts' => $posts->get(),
         'categories' => Category::all()
     ]);
+}
 ```
 
 Y seguidamente, nos vamos al archivo `_post-header.blade.php` y agregamos lo siguiente en el input de `search` para que los que buscamos no se borre de la barra de búsqueda.
