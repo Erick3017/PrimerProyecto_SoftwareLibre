@@ -17,6 +17,8 @@ Route::get('posts/{post:slug}', [PostController::class, 'show']);
 Route::get('register', [RegisterController::class, 'create'])->middleware('guest');
 Route::post('register', [RegisterController::class, 'store'])->middleware('guest');
 
+Route::post('logout', [SessionsController::class, 'destroy'])->middleware('auth');
+
 //Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
