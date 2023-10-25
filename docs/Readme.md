@@ -44,13 +44,26 @@
 - [35. How to Extract a Dropdown Blade Component](./integrate-the-design/how-to-extract-a-dropdown-blade-component.md)
 - [36. Quick Tweaks and Clean-Up](./integrate-the-design/quick-tweaks-and-clean-Up.md)
 
-## 06. Integrate the Design
+## 06. Search
 
 - [37. Search (The Messy Way)](./search/search-the-messy-way.md)
 - [38. Search (The Cleaner Way)](./search/search-the-cleaner-way.md)
+
+## 07. Filtering
+
 - [39. Advanced Eloquent Query Constraints)](./filtering/advanced-eloquent-query-constraints.md)
 - [40. Extract a Category Dropdown Blade Component)](./filtering/extract-a-category-dropdown-blade-component.md)
 - [41. Author Filtering)](./filtering/author-filtering.md)
 - [42. Merge Category and Search Queries)](./filtering/merge-category-and-search-queries.md)
+- [43. Fix a Confusing Eloquent Query Bug)](./filtering/fix-a-confusing-eloquent-query-bug.md)
+
+## 08. Pagination
+
+- [44. Laughably Simple Pagination)](./pagination/laughably-simple-pagination.md)
+
+## 09. Forms and Authentication
+
+
+
 
 
