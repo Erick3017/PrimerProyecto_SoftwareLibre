@@ -34,7 +34,7 @@ Ahora volvemos a nuestra maquina virtual y ejecutamos el siguiente comando para 
 php artisan migrate
 ```
 
-Verificamos la base de datos con la nueva tabla:
+Verificamos en la base de datos la nueva tabla creada `comments`:
 
 ![Nueva tabla comments](./images/newtable.png)
 
