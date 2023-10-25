@@ -50,6 +50,6 @@
 - [38. Search (The Cleaner Way)](./search/search-the-cleaner-way.md)
 - [39. Advanced Eloquent Query Constraints)](./filtering/advanced-eloquent-query-constraints.md)
 - [40. Extract a Category Dropdown Blade Component)](./filtering/extract-a-category-dropdown-blade-component.md)
-
+- [41. Author Filtering)](./filtering/author-filtering.md)
 
 
