@@ -1,3 +1,12 @@
+[< Volver a la pagina principal](/docs/readme.md)
+
+# Create the Publish Post Form
+
+Bien, ahora que hemos hecho un primer intento de agregar alguna autorización de ruta, En este episodio, vamos a terminar de crear el formulario "Publish Post".
+
+Comenzamos ubicándonos en el archivo `create.blade.php` y modificamos el código para crear de una vez el formulario.
+
+```html
 <x-layout>
     <section class="py-8 max-w-md mx-auto">
         <h1 class="text-lg font-bold mb-4">
@@ -27,12 +36,6 @@
                     @enderror
                 </div>
 
-                <!-- 
-
-
-
-                
-                 -->
 
 
                 <div class="mb-6">
@@ -71,3 +74,33 @@
         </x-panel>
     </section>
 </x-layout>
+```
+
+Seguidamente nos vamos al archivo `PostController.php` y agregamos la siguiente función.
+
+```php
+ public function store()
+    {
+        $attributes = request()->validate([
+            'title' => 'required',
+            'slug' => ['required', Rule::unique('posts', 'slug')],
+            'excerpt' => 'required',
+            'body' => 'required',
+            'category_id' => ['required', Rule::exists('categories', 'id')]
+        ]);
+
+        $attributes['user_id'] = auth()->id();
+
+        Post::create($attributes);
+
+        return redirect('/');
+    }
+```
+
+Para finalizar, nos vamos a la pagina web para verificar lo realizado creando un nuevo post.
+
+![Creando un post](./images/creandopost.png)
+
+Post creado.
+
+![Post Creado](./images/postcreado.png)

@@ -85,8 +85,13 @@
 - [58. Mailchimp API Tinkering)](./newsletters-and-APIs/mailchimp-API-tinkering.md)
 - [59. Make the Newsletter Form Work)](./newsletters-and-APIs/make-the-newsletter-form-work.md)
 - [60. Extract a Newsletter Service)](./newsletters-and-APIs/extract-a-newsletter-service.md)
-- [61. Limit Access to Only Admins)](./admin-section/limit-access-to-only-admins.md)
+- [61. Toy Chests and Contracts)](./newsletters-and-APIs/toy-chests-and-contracts.md)
 
+## 12. Admin Section.
+
+- [62. Limit Access to Only Admins)](./admin-section/limit-access-to-only-admins.md)
+- [63. Create the Publish Post Form)](./admin-section/create-the-publish-post-form.md)
+- 
 
 
 

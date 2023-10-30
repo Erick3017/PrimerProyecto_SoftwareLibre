@@ -11,29 +11,12 @@ Route::get('admin/posts/create', [PostController::class, 'create'])->middleware(
 Route::post('admin/posts', [PostController::class, 'store'])->middleware('admin');
 ```
 
-Seguidamente nos vamos al archivo `PostController.php` y agregamos las siguiente funciones.
+Seguidamente nos vamos al archivo `PostController.php` y agregamos la siguiente función.
 
 ```php
 public function create()
     {
         return view('posts.create');
-    }
-
-    public function store()
-    {
-        $attributes = request()->validate([
-            'title' => 'required',
-            'slug' => ['required', Rule::unique('posts', 'slug')],
-            'excerpt' => 'required',
-            'body' => 'required',
-            'category_id' => ['required', Rule::exists('categories', 'id')]
-        ]);
-
-        $attributes['user_id'] = auth()->id();
-
-        Post::create($attributes);
-
-        return redirect('/');
     }
 ```
 
