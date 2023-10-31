@@ -96,8 +96,11 @@
 - [66. Extend the Admin Layout)](./admin-section/extend-the-admin-layout.md)
 - [67. Create a Form to Edit and Delete Posts)](./admin-section/create-a-form-to-edit-and-delete-posts.md)
 - [68. Group and Store Validation Logic)](./admin-section/group-and-store-validation-logic.md)
+- [69. All About Authorization)](./admin-section/all-about-authorization.md)
 
+## 13. Conclusion
 
+- [70. Goodbye and Next Steps)](./conclusion/Goodbye-and-Next-steps.md)
 
 
 
