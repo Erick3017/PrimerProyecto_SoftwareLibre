@@ -1,3 +1,12 @@
+[< Volver a la pagina principal](/docs/readme.md)
+
+# Group and Store Validation Logic
+
+En este episodio, veremos los pros y los contras de mantener esa duplicación, antes de aprender a normalizarla y extraerla en un método reutilizable.
+
+Básicamente, editamos el archivo `AdminPostController.php` de la siguiente manera.
+
+```php
 <?php
 
 namespace App\Http\Controllers;
@@ -69,3 +78,4 @@ class AdminPostController extends Controller
         ]);
     }
 }
+```
